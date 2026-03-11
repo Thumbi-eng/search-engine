@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # ── config ────────────────────────────────────────────────────────────────────
-PROJECT_ID="${GCP_PROJECT:-test-ai-agent-489914}"
-REGION="${GCP_REGION:-us-central1}"
+PROJECT_ID="${GCP_PROJECT:-mustangsellers-29d50}"
+REGION="${GCP_REGION:-us-east1}"
 SERVICE_NAME="search-agent"
 IMAGE="gcr.io/${PROJECT_ID}/${SERVICE_NAME}"
 

@@ -23,5 +23,5 @@ COPY search_agent/ ./search_agent/
 ENV PORT=8080
 EXPOSE 8080
 
-# Run ADK REST API server pointing at the agents directory (current dir)
-CMD adk api_server --host 0.0.0.0 --port "$PORT" .
+# Run ADK web UI server pointing at the agents directory (current dir)
+CMD adk web --host 0.0.0.0 --port "$PORT" .
