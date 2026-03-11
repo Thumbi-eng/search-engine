@@ -1,0 +1,12 @@
+.venv/
+.git/
+.gitignore
+__pycache__/
+**/__pycache__/
+**/.adk/
+*.pyc
+*.pyo
+.env
+search_agent/.env
+uv.lock
+README.md
